@@ -21,4 +21,4 @@ Five annotators with over two years of relevant experience review all cleaned sa
 
 Following the aforementioned preprocessing and verification procedures, the final Help dataset contains 81,820 valid samples, each labeled with a unique intent tag. These tags form a classification system encompassing 600 distinct intent categories.
 
-Due to privacy considerations for users, the full dataset is not publicly accessible. De-identified samples can be obtained by contacting the corresponding author, with usage limited to academic research and replication studies.
+*Due to privacy considerations for users, the full dataset is not publicly accessible. De-identified samples can be obtained by contacting the corresponding author, with usage limited to academic research and replication studies.*
