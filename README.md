@@ -5,13 +5,13 @@ Specifically, stratified sampling is employed to mitigate sampling bias in inten
 
 To ensure data quality, a rigorous two-stage data processing and review pipeline is designed:
 
-## Stage 1: Hybrid Anomaly Data Processing (Rule-Driven + Statistical Methods)
+**Stage 1: Hybrid Anomaly Data Processing (Rule-Driven + Statistical Methods)**
 
 - Outlier Removal: 2,137 samples significantly deviating from normal patterns are eliminated using the Interquartile Range (IQR) method and domain-specific rules.
 - Missing Value Handling: Mode imputation is applied to categorical variables with missing fields, while 892 records lacking critical information are excluded.
 - Invalid Sample Filtering: 1,563 invalid samples are removed, including duplicates (detected via text embedding cosine similarity > 0.95), spam content, non-service-related conversations, and incomplete sentences.
   
-## Stage 2: Manual Secondary Verification
+**Stage 2: Manual Secondary Verification**
 
 Five annotators with over two years of relevant experience review all cleaned samples. Each sample is independently annotated by two annotators to verify three key aspects:
 
